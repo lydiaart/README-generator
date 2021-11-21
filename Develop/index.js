@@ -10,12 +10,12 @@ const questions = () => {
         {
             type: 'input',
             name: 'title',
-            message: 'What is your title? (Required)',
+            message: 'Please enter the title of your project. (Required)',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter your title!');
+                    console.log('Please enter the title your project!');
                     return false;
                 }
             }
@@ -35,22 +35,16 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'TableOfContents',
-            message: 'What is your Table of Contents? (Required)',
-            validate: nameInput => {
-                if (nameInput) {
+            name: 'Installation',
+            message: 'How do you install this application? (Required)',
+            validate: linkInput => {
+                if (linkInput) {
                     return true;
                 } else {
-                    console.log('Please enter your Table of Contents!');
+                    console.log('Please enter how to install this application!');
                     return false;
                 }
             }
-        },
-        {
-            type: 'checkbox',
-            name: 'BuiltWith',
-            message: 'What did you build this project with? (Check all that apply)',
-            choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
         },
         {
             type: 'input',
@@ -60,15 +54,16 @@ const questions = () => {
                 if (linkInput) {
                     return true;
                 } else {
-                    console.log('You need to enter the usage for the README!');
+                    console.log('You need to enter the usage!');
                     return false;
                 }
             }
         },
         {
-            type: 'input',
-            name: 'Websites',
-            message: 'Enter the GitHub link to your project. (Required)',
+            type: 'list',
+            name: 'License',
+            message: 'Choosing following license. (Required)',
+            choices: ["Apache","Boost","Eclipse","IBM","MIT"],
             validate: linkInput => {
                 if (linkInput) {
                     return true;
@@ -80,13 +75,52 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'Credits',
-            message: 'Give the credits to whom deserve. (Required)',
+            name: 'Contributing',
+            message: 'Who are the contributors? (Required)',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('You need to give the credits!');
+                    console.log('Please enter the contributors!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'Tests',
+            message: 'How do you test your application? (Required)',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter how to test your application!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'GitHub',
+            message: 'What is your GitHub username? (Required)',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your GitHub username!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'Email',
+            message: 'What is your Email? (Required)',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email!');
                     return false;
                 }
             }

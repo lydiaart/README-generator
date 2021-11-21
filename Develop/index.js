@@ -134,7 +134,7 @@ const questions = () => {
 function init() {
     questions().then(answers => {
         // TODO: Create a function to write README file
-        fs.writeFile('README.md', generatePage(answers), err => {
+        fs.writeFile('./dist/README.md', generatePage(answers), err => {
             if (err) throw err;
             console.log('README file has been created!')
         })

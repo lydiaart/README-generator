@@ -36,7 +36,7 @@ const generateLicense = answers => {
     if (!answers.License) {
         return '';
     }
-    if (License = "Apache") {
+    if (answers.License === "Apache") {
         return `## License 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
  <p>Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,7 +52,7 @@ const generateLicense = answers => {
    limitations under the License. </p>
 
 `
-    } else if (License = "Boost") {
+    } else if (answers.License === "Boost") {
         return `## License 
 [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 <p>
@@ -82,7 +82,7 @@ DEALINGS IN THE SOFTWARE.
 </p>
 
 `
-    } else if (License = "Eclipse") {
+    } else if (answers.License === "Eclipse") {
         return `## License 
 [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 <p>
@@ -92,7 +92,7 @@ c) Recipient understands that although each Contributor grants the licenses to i
 d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
 </p>
 `
-    } else if (License = "IBM") {
+    } else if (answers.License === "IBM") {
         return `## License 
 [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 <p>

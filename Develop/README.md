@@ -22,6 +22,7 @@ This application is to generate README file for the users.
   
 ## Usage 
 The following image demonstrates the web application's appearance and functionality:
+<p><img src="./src/README-generator.gif" alt="Demonstration"/></p>
 
 ## Websites
 * [LiveSite](https://flowingcityloy.github.io/README-generator/)

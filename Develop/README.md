@@ -7,7 +7,7 @@ This application is to generate README file for the users.
 * [Installation](#installation)
 * [Built With](#builtwith)
 * [Usage](#usage)
-* [Websites](#websites)
+* [Website](#website)
 * [Credits](#credits)
 * [Questions](#questions)
 

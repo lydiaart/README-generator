@@ -18,7 +18,8 @@ This application is to generate README file for the users.
 
 ## Built With
 * JavaScript
-* Node
+* Node.js
+* Inquirer
   
 ## Usage 
 The following image demonstrates the web application's appearance and functionality:

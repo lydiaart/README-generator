@@ -18,11 +18,14 @@ This application is to generate README file for the users.
 
 ## Built With
 * JavaScript
-* Node
+* Node.js
+* Inquirer
   
 ## Usage 
 The following image demonstrates the web application's appearance and functionality:
 <p><img src="./src/README-generator.gif" alt="Demonstration"/></p>
+Please lick on the following link for clearer video:
+<p><a href="https://watch.screencastify.com/v/WCzGjdQZBCHbf1ojARLu">Link</a></p>
 
 ## Website
 * [Repository](https://github.com/flowingcityloy/README-generator)

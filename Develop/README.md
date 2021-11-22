@@ -34,6 +34,6 @@ Lydia Loy
   
   If you have any questions, please reach out to me at:<br>
   <a href="https://github.com/flowingcityloy">GitHub Link</a><br>
-  <a href="mailto:lydia_art@yahoo.com">Email</a>
+  <a href="mailto:lydia_art@yahoo.com">Email</a><br>
   Thank you!
     

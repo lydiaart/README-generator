@@ -28,9 +28,11 @@ Please click on the following link for clearer video:
 <p><a href="https://watch.screencastify.com/v/WCzGjdQZBCHbf1ojARLu">Link</a></p>
 
 ## Website
-* [Repository](https://github.com/flowingcityloy/README-generator)
+[Repository](https://github.com/flowingcityloy/README-generator)
 
 ## Credits
+
+Start code from <a href="https://github.com/coding-boot-camp/potential-enigma">Xandromus</a><br>
 Lydia Loy
     
 ## Questions

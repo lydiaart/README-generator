@@ -24,7 +24,7 @@ This application is to generate README file for the users.
 ## Usage 
 The following image demonstrates the web application's appearance and functionality:
 <p><img src="./src/README-generator.gif" alt="Demonstration"/></p>
-Please lick on the following link for clearer video:
+Please click on the following link for clearer video:
 <p><a href="https://watch.screencastify.com/v/WCzGjdQZBCHbf1ojARLu">Link</a></p>
 
 ## Website

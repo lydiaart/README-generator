@@ -33,7 +33,7 @@ Please click on the following link for clearer video:
 ## Credits
 
 Start code from <a href="https://github.com/coding-boot-camp/potential-enigma">Xandromus</a><br>
-Lydia Loy
+Lydia L
     
 ## Questions
   
